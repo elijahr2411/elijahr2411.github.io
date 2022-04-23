@@ -1,0 +1,27 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+section.comments {
+  text-align: center;
+}
+section.menubar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section.menubar ul li {
+  display: inline;
+  text-decoration: none;
+  border-right: 1px solid black;
+  font-size: 24pt;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+section.menubar ul li:last-child {
+  border-right: none;
+}
+section-menubar ul li a:hover {
+  text-decoration: none;
+}

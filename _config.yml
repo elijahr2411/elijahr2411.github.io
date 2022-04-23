@@ -1,0 +1,13 @@
+theme: jekyll-theme-slate
+title: Elijahr2411's Website
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      comments: true
+  -
+    scope:
+      path: "README.md" # an empty string here means all files in the project
+    values:
+      comments: false
